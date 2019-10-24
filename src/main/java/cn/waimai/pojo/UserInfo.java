@@ -1,7 +1,7 @@
 package cn.waimai.pojo;
 
 public class UserInfo {
-	private Integer user_id;
+	private String uid;
 	private String user_name;
 	private String user_mobile;
 	private String user_set;
@@ -11,12 +11,14 @@ public class UserInfo {
 	private Integer user_member;
 	private Integer user_comment;
 	private Integer user_refund;
-	public Integer getUser_id() {
-		return user_id;
+
+	public String getUid() {
+		return uid;
 	}
-	public void setUser_id(Integer user_id) {
-		this.user_id = user_id;
+	public void setUid(String uid) {
+		this.uid = uid;
 	}
+
 	public String getUser_name() {
 		return user_name;
 	}
