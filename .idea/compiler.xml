@@ -9,8 +9,5 @@
         <module name="FanBoShiWaiMai" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="FanBoShiWaiMai" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
